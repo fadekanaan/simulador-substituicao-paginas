@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Projeto: Ignorar arquivos de trace (pesados)
+traces/*.trace
+!traces/.gitkeep
+relatorio.html
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
