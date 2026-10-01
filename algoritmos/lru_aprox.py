@@ -1,7 +1,7 @@
 """
 Algoritmo LRU Aproximado (Aging / Envelhecimento com Bit de Referência).
 
-Simula a técnica prática adotada por sistemas operacionais reais com
+Implementação baseada no algoritmo de envelhecimento visto em aula, com
 interrupções periódicas de relógio e contadores de bits de histórico.
 """
 
@@ -32,11 +32,11 @@ def simular_lru_aprox(
     da substituição. Ao compor uma chave virtual ((contador >> 1) | (bit_ref << msb_shift)),
     o bit R do intervalo atual entra como MSB virtual, evitando que páginas
     referenciadas recentemente (inclusive recém-carregadas com contador=0 e bit_ref=1)
-    sejam expulsas prematuramente antes do próximo tique de relógio.
+    sejam substituídas prematuramente antes do próximo tique de relógio.
 
     Variante Comparativa ('Aging Puro' - considerar_ref=False):
     Considera estritamente o valor do contador acumulado até o último tique,
-    deixando páginas novas vulneráveis à expulsão entre dois tiques.
+    deixando páginas novas vulneráveis à substituição entre dois tiques.
 
     Estrutura:
     - memoria[pagina] = [contador, bit_ref, ordem_chegada]
