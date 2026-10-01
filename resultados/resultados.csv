@@ -1,0 +1,176 @@
+trace,frames,algoritmo,falhas,taxa_falhas
+bigone,4,FIFO,1202780,30.0695
+bigone,4,LRU aproximado,1145161,28.6290
+bigone,4,LRU aproximado puro,1670581,41.7645
+bigone,4,OPT,731913,18.2978
+bigone,4,LRU exato,966135,24.1534
+bigone,8,FIFO,814257,20.3564
+bigone,8,LRU aproximado,733147,18.3287
+bigone,8,LRU aproximado puro,1085323,27.1331
+bigone,8,OPT,424381,10.6095
+bigone,8,LRU exato,663748,16.5937
+bigone,16,FIFO,496736,12.4184
+bigone,16,LRU aproximado,432364,10.8091
+bigone,16,LRU aproximado puro,748494,18.7124
+bigone,16,OPT,230369,5.7592
+bigone,16,LRU exato,400591,10.0148
+bigone,32,FIFO,267469,6.6867
+bigone,32,LRU aproximado,218632,5.4658
+bigone,32,LRU aproximado puro,539395,13.4849
+bigone,32,OPT,127910,3.1978
+bigone,32,LRU exato,202533,5.0633
+bigone,64,FIFO,150507,3.7627
+bigone,64,LRU aproximado,124993,3.1248
+bigone,64,LRU aproximado puro,367318,9.1829
+bigone,64,OPT,75228,1.8807
+bigone,64,LRU exato,123192,3.0798
+bigone,128,FIFO,94715,2.3679
+bigone,128,LRU aproximado,74613,1.8653
+bigone,128,LRU aproximado puro,145666,3.6416
+bigone,128,OPT,43058,1.0764
+bigone,128,LRU exato,75925,1.8981
+bigone,256,FIFO,56193,1.4048
+bigone,256,LRU aproximado,44837,1.1209
+bigone,256,LRU aproximado puro,54288,1.3572
+bigone,256,OPT,22434,0.5608
+bigone,256,LRU exato,42600,1.0650
+bzip,4,FIFO,128601,12.8601
+bzip,4,LRU aproximado,121001,12.1001
+bzip,4,LRU aproximado puro,146668,14.6668
+bzip,4,OPT,78562,7.8562
+bzip,4,LRU exato,92770,9.2770
+bzip,8,FIFO,47828,4.7828
+bzip,8,LRU aproximado,31766,3.1766
+bzip,8,LRU aproximado puro,59553,5.9553
+bzip,8,OPT,18251,1.8251
+bzip,8,LRU exato,30691,3.0691
+bzip,16,FIFO,3820,0.3820
+bzip,16,LRU aproximado,4032,0.4032
+bzip,16,LRU aproximado puro,27072,2.7072
+bzip,16,OPT,2427,0.2427
+bzip,16,LRU exato,3344,0.3344
+bzip,32,FIFO,2497,0.2497
+bzip,32,LRU aproximado,2195,0.2195
+bzip,32,LRU aproximado puro,19329,1.9329
+bzip,32,OPT,1330,0.1330
+bzip,32,LRU exato,2133,0.2133
+bzip,64,FIFO,1467,0.1467
+bzip,64,LRU aproximado,1273,0.1273
+bzip,64,LRU aproximado puro,6778,0.6778
+bzip,64,OPT,821,0.0821
+bzip,64,LRU exato,1264,0.1264
+bzip,128,FIFO,891,0.0891
+bzip,128,LRU aproximado,842,0.0842
+bzip,128,LRU aproximado puro,2408,0.2408
+bzip,128,OPT,497,0.0497
+bzip,128,LRU exato,771,0.0771
+bzip,256,FIFO,511,0.0511
+bzip,256,LRU aproximado,394,0.0394
+bzip,256,LRU aproximado puro,435,0.0435
+bzip,256,OPT,317,0.0317
+bzip,256,LRU exato,397,0.0397
+gcc,4,FIFO,302860,30.2860
+gcc,4,LRU aproximado,352883,35.2883
+gcc,4,LRU aproximado puro,543116,54.3116
+gcc,4,OPT,185754,18.5754
+gcc,4,LRU exato,243809,24.3809
+gcc,8,FIFO,205368,20.5368
+gcc,8,LRU aproximado,215242,21.5242
+gcc,8,LRU aproximado puro,402027,40.2027
+gcc,8,OPT,118480,11.8480
+gcc,8,LRU exato,171186,17.1186
+gcc,16,FIFO,138539,13.8539
+gcc,16,LRU aproximado,135147,13.5147
+gcc,16,LRU aproximado puro,318296,31.8296
+gcc,16,OPT,80307,8.0307
+gcc,16,LRU exato,116604,11.6604
+gcc,32,FIFO,98067,9.8067
+gcc,32,LRU aproximado,90390,9.0390
+gcc,32,LRU aproximado puro,241418,24.1418
+gcc,32,OPT,55802,5.5802
+gcc,32,LRU exato,84401,8.4401
+gcc,64,FIFO,70315,7.0315
+gcc,64,LRU aproximado,60510,6.0510
+gcc,64,LRU aproximado puro,170595,17.0595
+gcc,64,OPT,38050,3.8050
+gcc,64,LRU exato,59089,5.9089
+gcc,128,FIFO,48526,4.8526
+gcc,128,LRU aproximado,39874,3.9874
+gcc,128,LRU aproximado puro,81681,8.1681
+gcc,128,OPT,24391,2.4391
+gcc,128,LRU exato,40821,4.0821
+gcc,256,FIFO,31698,3.1698
+gcc,256,LRU aproximado,25480,2.5480
+gcc,256,LRU aproximado puro,31423,3.1423
+gcc,256,OPT,12667,1.2667
+gcc,256,LRU exato,25308,2.5308
+sixpack,4,FIFO,351810,35.1810
+sixpack,4,LRU aproximado,307451,30.7451
+sixpack,4,LRU aproximado puro,490183,49.0183
+sixpack,4,OPT,197551,19.7551
+sixpack,4,LRU exato,282620,28.2620
+sixpack,8,FIFO,230168,23.0168
+sixpack,8,LRU aproximado,199842,19.9842
+sixpack,8,LRU aproximado puro,311681,31.1681
+sixpack,8,OPT,116407,11.6407
+sixpack,8,LRU exato,176496,17.6496
+sixpack,16,FIFO,140083,14.0083
+sixpack,16,LRU aproximado,120952,12.0952
+sixpack,16,LRU aproximado puro,200945,20.0945
+sixpack,16,OPT,69325,6.9325
+sixpack,16,LRU exato,108682,10.8682
+sixpack,32,FIFO,85283,8.5283
+sixpack,32,LRU aproximado,71034,7.1034
+sixpack,32,LRU aproximado puro,150192,15.0192
+sixpack,32,OPT,41955,4.1955
+sixpack,32,LRU exato,67747,6.7747
+sixpack,64,FIFO,48301,4.8301
+sixpack,64,LRU aproximado,40040,4.0040
+sixpack,64,LRU aproximado puro,105447,10.5447
+sixpack,64,OPT,22083,2.2083
+sixpack,64,LRU exato,41186,4.1186
+sixpack,128,FIFO,27778,2.7778
+sixpack,128,LRU aproximado,20691,2.0691
+sixpack,128,LRU aproximado puro,42409,4.2409
+sixpack,128,OPT,11690,1.1690
+sixpack,128,LRU exato,21090,2.1090
+sixpack,256,FIFO,15440,1.5440
+sixpack,256,LRU aproximado,12068,1.2068
+sixpack,256,LRU aproximado puro,14674,1.4674
+sixpack,256,OPT,5981,0.5981
+sixpack,256,LRU exato,11240,1.1240
+swim,4,FIFO,419509,41.9509
+swim,4,LRU aproximado,363826,36.3826
+swim,4,LRU aproximado puro,423303,42.3303
+swim,4,OPT,270046,27.0046
+swim,4,LRU exato,346936,34.6936
+swim,8,FIFO,330893,33.0893
+swim,8,LRU aproximado,286297,28.6297
+swim,8,LRU aproximado puro,308553,30.8553
+swim,8,OPT,171244,17.1244
+swim,8,LRU exato,285375,28.5375
+swim,16,FIFO,214295,21.4295
+swim,16,LRU aproximado,172233,17.2233
+swim,16,LRU aproximado puro,201448,20.1448
+swim,16,OPT,78312,7.8312
+swim,16,LRU exato,171961,17.1961
+swim,32,FIFO,81638,8.1638
+swim,32,LRU aproximado,55022,5.5022
+swim,32,LRU aproximado puro,125839,12.5839
+swim,32,OPT,28826,2.8826
+swim,32,LRU exato,48254,4.8254
+swim,64,FIFO,30422,3.0422
+swim,64,LRU aproximado,23173,2.3173
+swim,64,LRU aproximado puro,81047,8.1047
+swim,64,OPT,14289,1.4289
+swim,64,LRU exato,21656,2.1656
+swim,128,FIFO,17523,1.7523
+swim,128,LRU aproximado,13213,1.3213
+swim,128,LRU aproximado puro,18056,1.8056
+swim,128,OPT,6518,0.6518
+swim,128,LRU exato,13250,1.3250
+swim,256,FIFO,8551,0.8551
+swim,256,LRU aproximado,6916,0.6916
+swim,256,LRU aproximado puro,7175,0.7175
+swim,256,OPT,3572,0.3572
+swim,256,LRU exato,5673,0.5673
